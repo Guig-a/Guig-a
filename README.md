@@ -38,6 +38,11 @@ Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetu
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-00979D?style=flat-square&logo=render&logoColor=white)
 
+## Cloud
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
 ### Testes & Tools
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
 ![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat-square)
