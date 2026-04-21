@@ -1,37 +1,85 @@
-<div align="center">
-┌─────────────────────────────────────────────────────────────┐
-│  guilherme@camargo:~$ whoami                                │
-│  > Fullstack Developer · São Paulo, SP                      │
-│  > NestJS · Next.js · TypeScript · Prisma · PostgreSQL      │
-└─────────────────────────────────────────────────────────────┘
-</div>
+# 👨‍💻 Guilherme Camargo
 
-$ cat about.md
-Desenvolvedor Fullstack com ~2 anos de experiência construindo sistemas de produção — de integrações fiscais (NF-e, TOTVS) a plataformas SaaS multi-tenant. Trabalho com NestJS + Next.js + TypeScript + Prisma + PostgreSQL como stack principal.
-Tenho preferência por arquitetura limpa, DDD e testes com banco real — sem mock de ORM.
+**Fullstack Developer** • São Paulo, SP  
+Foco em SaaS, integrações fiscais e arquitetura limpa
 
-$ ls projects/
-ProjetoDescriçãoStackapp_financeiroSaaS financeiro multi-tenant com RBAC, JWT refresh rotation e Argon2NestJS · Next.js 15 · Prisma · TurborepodeltaEm desenvolvimentoTypeScriptKoder (privado)VTMS — sistema de transformação de veículos com BOM hierárquico e ordens de serviçoNestJS · Next.js · PrismaImhotep (em dev)SaaS de gestão de checklists para construtoras — multi-tenant, assinatura digital, QR code por unidadeNestJS · Next.js 15 · Socket.io · Supabase
+---
 
-$ cat stack.json
-json{
-  "backend":    ["NestJS", "Node.js", "REST", "JWT", "Prisma ORM"],
-  "frontend":   ["Next.js 15", "React", "TypeScript", "Tailwind CSS"],
-  "database":   ["PostgreSQL", "Supabase"],
-  "infra":      ["Railway", "Vercel", "Render", "Docker"],
-  "testing":    ["Jest", "Supertest", "E2E com banco real"],
-  "tools":      ["GitHub Actions", "semantic-release", "Turborepo", "pnpm"],
-  "learning":   ["PHP 8", "AWS (CLF-C02)"]
-}
+## Sobre
 
-$ git log --oneline --graph
-* Imhotep — arquitetura multi-tenant para construtoras (2026)
-* Financeiro App — SaaS com RBAC e refresh token rotation (2026)
-* Koder — VTMS com BOM hierárquico e event sourcing (2025–2026)
-* Integrações NF-e / TOTVS em sistema ERP (2025)
+Desenvolvedor Fullstack com ~2 anos de experiência construindo sistemas de produção — desde integrações fiscais (NF-e, TOTVS) até plataformas SaaS multi-tenant.
 
-$ cat contact.sh
-bashlinkedin="https://linkedin.com/in/guilherme-lima-camargo-dev"
-location="São Paulo, SP — aberto a CLT"
+Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetura limpa, DDD e testes com banco real.
 
-<div align="center">
+---
+
+## Stack
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![REST](https://img.shields.io/badge/REST-000000?style=flat-square&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+### Database
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+### Infra & DevOps
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-000000?style=flat-square&logo=railway&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-00979D?style=flat-square&logo=render&logoColor=white)
+
+### Testes & Tools
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
+
+---
+
+##  Projetos
+
+### Imhotep
+SaaS multi-tenant para construtoras  
+- Checklists operacionais  
+- Assinatura digital  
+- QR code por unidade  
+
+---
+
+### Financeiro App
+Plataforma SaaS com controle financeiro  
+- RBAC (controle de acesso)  
+- JWT + refresh token rotation  
+
+---
+
+### Koder (VTMS)
+Sistema de transformação veicular  
+- BOM hierárquico  
+- Event Sourcing  
+- Ordens de serviço  
+
+---
+
+### Integrações Fiscais
+Integração com WebMania e TOTVS  
+- Automação fiscal  
+- Integração com ERP  
+
+---
+
+## Contato
+
+- LinkedIn: https://linkedin.com/in/guilherme-lima-camargo-dev  
+- Localização: São Paulo, SP  
+- 💼 Aberto a oportunidades CLT
