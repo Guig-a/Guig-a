@@ -91,4 +91,4 @@ Integração com WebMania e TOTVS
 - LinkedIn: https://linkedin.com/in/guilherme-lima-camargo-dev
 - E-mail: guilhermecamargo.tech@gmail.com  
 - Localização: São Paulo, SP  
-- 💼 Aberto a oportunidades CLT
+- 💼 Aberto a oportunidades
