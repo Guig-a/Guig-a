@@ -1,7 +1,7 @@
 # 👨‍💻 Guilherme Camargo
 
 **Fullstack Developer** • São Paulo, SP  
-Foco em SaaS, integrações fiscais e arquitetura limpa
+Foco em ERP, SaaS e integrações.
 
 ---
 
@@ -9,7 +9,8 @@ Foco em SaaS, integrações fiscais e arquitetura limpa
 
 Desenvolvedor Fullstack com ~2 anos de experiência construindo sistemas de produção — desde integrações fiscais (NF-e, TOTVS) até plataformas SaaS multi-tenant.
 
-Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetura limpa, DDD e testes com banco real.
+Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetura limpa, DDD e testes.
+
 
 ---
 
@@ -59,19 +60,21 @@ SaaS multi-tenant para construtoras
 ### Financeiro App
 Plataforma SaaS com controle financeiro  
 - RBAC (controle de acesso)  
-- JWT + refresh token rotation  
+- JWT + refresh token rotation
+https://financeiroweb-production.up.railway.app/  
 
 ---
 
-### Koder (VTMS)
+### Koder (VTP) - Prestador de serviço
 Sistema de transformação veicular  
 - BOM hierárquico  
 - Event Sourcing  
-- Ordens de serviço  
+- Ordens de serviço
+https://koder.lumiartecnologia.com.br/  
 
 ---
 
-### Integrações Fiscais
+### Integrações Fiscais - Atuação em ERP como prestador
 Integração com WebMania e TOTVS  
 - Automação fiscal  
 - Integração com ERP  
@@ -80,6 +83,7 @@ Integração com WebMania e TOTVS
 
 ## Contato
 
-- LinkedIn: https://linkedin.com/in/guilherme-lima-camargo-dev  
+- LinkedIn: https://linkedin.com/in/guilherme-lima-camargo-dev
+- E-mail: guilhermecamargo.tech@gmail.com  
 - Localização: São Paulo, SP  
 - 💼 Aberto a oportunidades CLT
