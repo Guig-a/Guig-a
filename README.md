@@ -54,7 +54,7 @@ Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetu
 
 ##  Projetos
 
-### Imhotep
+### Imhotep - em desenvolvimento
 SaaS multi-tenant para construtoras  
 - Checklists operacionais  
 - Assinatura digital  
@@ -62,7 +62,7 @@ SaaS multi-tenant para construtoras
 
 ---
 
-### Financeiro App
+### Financeiro App - em desenvolvimento
 Plataforma SaaS com controle financeiro  
 - RBAC (controle de acesso)  
 - JWT + refresh token rotation
