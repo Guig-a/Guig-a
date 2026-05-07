@@ -1,16 +1,13 @@
 # 👨‍💻 Guilherme Camargo
-
 **Fullstack Developer** • São Paulo, SP  
 Foco em ERP, SaaS e integrações.
 
 ---
 
 ## Sobre
-
-Desenvolvedor Fullstack com ~2 anos de experiência construindo sistemas de produção — desde integrações fiscais (NF-e, TOTVS) até plataformas SaaS multi-tenant.
-
-Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetura limpa, DDD e testes.
-
+Desenvolvedor Fullstack com ~2 anos de experiência construindo sistemas de produção — desde integrações fiscais (NF-e, TOTVS) até plataformas SaaS multi-tenant.  
+Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetura limpa, DDD e testes.  
+Explorando **Python** para pipelines de dados, scraping assíncrono e workers de fila.
 
 ---
 
@@ -19,6 +16,8 @@ Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetu
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![REST](https://img.shields.io/badge/REST-000000?style=flat-square&logo=fastapi&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
@@ -28,67 +27,85 @@ Atuo principalmente com **NestJS + Next.js + TypeScript**, priorizando arquitetu
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-### Database
+### Database & Queue
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 ### Infra & DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-000000?style=flat-square&logo=railway&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-00979D?style=flat-square&logo=render&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
-## Cloud
+### Cloud
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### Testes & Tools
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
 ![Supertest](https://img.shields.io/badge/Supertest-000000?style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square)
 ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white)
 
 ---
 
-##  Projetos
+## Projetos
 
-### Imhotep - em desenvolvimento
-SaaS multi-tenant para construtoras  
-- Checklists operacionais  
-- Assinatura digital  
-- QR code por unidade  
+### Imhotep — em desenvolvimento
+SaaS multi-tenant para construtoras
+- Checklists operacionais
+- Assinatura digital
+- QR code por unidade
 
 ---
 
-### Financeiro App - em desenvolvimento
-Plataforma SaaS com controle financeiro  
-- RBAC (controle de acesso)  
+### Financeiro App — em desenvolvimento
+Plataforma SaaS com controle financeiro
+- RBAC (controle de acesso)
 - JWT + refresh token rotation
-https://financeiroweb-production.up.railway.app/  
 
 ---
 
-### Koder (VTP) - Prestador de serviço
-Sistema de transformação veicular  
-- BOM hierárquico  
-- Event Sourcing  
+### async-queue
+Worker de fila assíncrono em Python com FastAPI e Redis
+- API publica jobs; worker consome via `BLPOP` com `asyncio`
+- Retry com backoff linear; status consultável por endpoint
+- Processos separados para escalar API e worker independentemente
+
+https://github.com/Guig-a/async-queue
+
+---
+
+### books-scraper
+Scraper assíncrono de livros com pipeline de dados em Python
+- `asyncio` + `httpx` + `BeautifulSoup` — sem bloqueio de thread
+- Persistência via SQLAlchemy async + PostgreSQL com upsert
+- ~1000 registros coletados de books.toscrape.com
+
+https://github.com/Guig-a/books-scraper
+
+---
+
+### Koder (VTP) — Prestador de serviço
+Sistema de transformação veicular
+- BOM hierárquico
+- Event Sourcing
 - Ordens de serviço
-https://koder.lumiartecnologia.com.br/  
+
+https://koder.lumiartecnologia.com.br/
 
 ---
 
-### Integrações Fiscais - Atuação em ERP como prestador
-Integração com WebMania e TOTVS  
-- Automação fiscal  
-- Integração com ERP  
+### Integrações Fiscais — Atuação em ERP como prestador
+Integração com WebMania e TOTVS
+- Automação fiscal
+- Integração com ERP
 
 ---
 
 ## Contato
-
 - LinkedIn: https://linkedin.com/in/guilherme-lima-camargo-dev
-- E-mail: guilhermecamargo.tech@gmail.com  
-- Localização: São Paulo, SP  
+- E-mail: guilhermecamargo.tech@gmail.com
+- Localização: São Paulo, SP
 - 💼 Aberto a oportunidades
